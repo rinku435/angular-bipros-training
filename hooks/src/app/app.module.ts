@@ -21,6 +21,9 @@ import {MultiSelectModule} from 'primeng/multiselect';
 import {PasswordModule} from 'primeng/password';
 import {CardModule} from 'primeng/card';
 
+import { MatMenuModule } from '@angular/material/menu';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +31,7 @@ import {CardModule} from 'primeng/card';
     RegisterComponent,
     SongsComponent,
     MenuComponent,
-    AdminComponent
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
@@ -44,7 +47,10 @@ import {CardModule} from 'primeng/card';
     CalendarModule,
     MultiSelectModule,
     PasswordModule,
-    CardModule
+    CardModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
